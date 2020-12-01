@@ -35,7 +35,7 @@ const Card = () => {
         </p>
         <a href={`https://${blog}`}>
           <MdLink></MdLink>
-          {blog || 'no site listed'}
+          {blog || "no site listed"}
         </a>
       </div>
     </Wrapper>
@@ -49,6 +49,7 @@ const Wrapper = styled.article`
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
   position: relative;
+  box-shadow: 0 5px 30px 0px #4183c4;
   &::before {
     content: "user";
     position: absolute;
@@ -70,6 +71,7 @@ const Wrapper = styled.article`
     align-items: center;
     column-gap: 1rem;
     margin-bottom: 1rem;
+
     img {
       width: 75px;
       height: 75px;

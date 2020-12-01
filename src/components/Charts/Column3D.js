@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import FusionCharts from "fusioncharts";
 import Charts from "fusioncharts/fusioncharts.charts";
 import ReactFC from "react-fusioncharts";
-import FusionTheme from "fusioncharts/themes/fusioncharts.theme.fusion";
+import FusionTheme from "fusioncharts/themes/fusioncharts.theme.candy";
 
 ReactFC.fcRoot(FusionCharts, Charts, FusionTheme);
 
@@ -15,7 +15,7 @@ const ChartComponent = ({data}) => {
     dataSource: {
       chart: {
         caption:'Most Popular Repos',
-        theme:'fusion',
+        theme:'candy',
         yAxisName: "Stars",
         xAxisName: "Repos",
         yAxisNameFontSize: "16px",

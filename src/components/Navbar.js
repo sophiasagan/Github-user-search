@@ -46,6 +46,8 @@ const Wrapper = styled.nav`
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+  box-shadow: 0 5px 30px 0px #4183C4;
+
   h4 {
     margin-bottom: 0;
     font-weight: 400;

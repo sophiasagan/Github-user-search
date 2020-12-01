@@ -66,6 +66,7 @@ const Wrapper = styled.section`
   @media (min-width: 640px) {
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   }
+  
   .item {
     border-radius: var(--radius);
     padding: 1rem 2rem;
@@ -74,6 +75,8 @@ const Wrapper = styled.section`
     grid-template-columns: auto 1fr;
     column-gap: 3rem;
     align-items: center;
+    box-shadow: 0 5px 30px 0px #4183C4;
+
     span {
       width: 3rem;
       height: 3rem;

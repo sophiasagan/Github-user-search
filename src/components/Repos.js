@@ -88,6 +88,7 @@ const Wrapper = styled.div`
   display: grid;
   justify-items: center;
   gap: 2rem;
+  
   @media (min-width: 800px) {
     grid-template-columns: 1fr 1fr;
   }
@@ -101,10 +102,13 @@ const Wrapper = styled.div`
   }
   .fusioncharts-container {
     width: 100% !important;
+    
   }
   svg {
     width: 100% !important;
     border-radius: var(--radius) !important;
+    box-shadow: 0 5px 30px 0px #4183C4;
+
   }
 `;
 

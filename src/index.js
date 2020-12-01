@@ -11,10 +11,11 @@ import { Auth0Provider } from "@auth0/auth0-react";
 ReactDOM.render(
   <React.StrictMode>
     <Auth0Provider
-    domain="dev-htq1y6ym.us.auth0.com"
-    clientId="vh3cWSw9cW580d3Ha3JW5jEbZx8uLszK"
-    redirectUri={window.location.origin}
->
+      domain="dev-htq1y6ym.us.auth0.com"
+      clientId="vh3cWSw9cW580d3Ha3JW5jEbZx8uLszK"
+      redirectUri={window.location.origin}
+      cacheLocation="localstorage" // data persistance for social login
+    >
       <GithubProvider>
         <App />
       </GithubProvider>

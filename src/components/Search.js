@@ -48,6 +48,7 @@ const Wrapper = styled.div`
   position: relative;
   display: grid;
   gap: 1rem 1.75rem;
+  
   @media (min-width: 768px) {
     grid-template-columns: 1fr max-content;
     align-items: center;
@@ -61,8 +62,9 @@ const Wrapper = styled.div`
     align-items: center;
     grid-template-columns: auto 1fr auto;
     column-gap: 0.5rem;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 0.5rem;
+    box-shadow: 0 5px 30px 0px #4183C4;
     input {
       border-color: transparent;
       outline-color: var(--clr-grey-10);
